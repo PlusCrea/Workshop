@@ -55,6 +55,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           publish-profile: ${{ secrets.PROFILE }}
-          app-name: 'OmerFarukYilmaz'
+          app-name: 'aliyakar'
           slot-name: 'production'
           package: .
